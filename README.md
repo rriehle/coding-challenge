@@ -1,6 +1,11 @@
 ## sum_columns_of_list.py
 
-Write a script that takes each column of an array/list/tuple and adds it to the corresponding column of another array/list/tuple and returns the result as an array/list/tuple. See the asserts toward the bottom of the module for perhaps a better explanation of the goal.
+Write a script that takes each column of an array/list/tuple and adds it to the corresponding column of another array/list/tuple and returns the result as an array/list/tuple. Consider these asserts for perhaps a better explanation of the goal:
+
+```python3
+assert [6, 5, 2] == sum_columnns([2, 5, 7], [3, 9, 5])
+assert [1, 9, 9, 8] == sum_columns([9, 9, 9], [9, 9, 9])
+```
 
 ## Running Tests
 
